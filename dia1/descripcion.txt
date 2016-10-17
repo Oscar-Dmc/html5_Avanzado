@@ -1,0 +1,2 @@
+Pruebas con la libreria CSSGram para ponerle filtros a las imagenes. 
+Si aplicamos 2 filtros o mas a la misma imagen solo funciona el ultimo de los que le hemos añadido.
