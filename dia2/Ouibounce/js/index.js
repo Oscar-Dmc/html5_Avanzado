@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  ouibounce(document.getElementByID('modal-card'),{
+  ouibounce(document.getElementById('modal-card'),{
     aggressive: true,
     timer:5
   });
