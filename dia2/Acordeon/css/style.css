@@ -7,3 +7,12 @@
   background: #CCC;
   padding: 5px;
 }
+
+.accordion [data-control]::before {
+  content: '⊞ ';
+  color: #888;
+}
+.accordion.open [data-control]::before {
+  content: '⊟ ';
+  color: #444;
+}
