@@ -1,4 +1,3 @@
-$(document).ready(function() {
 
   function mensaje() {
 
@@ -13,5 +12,3 @@ $(document).ready(function() {
       timeOut: 2000,
     }
   }
-
-});
