@@ -4,10 +4,13 @@ $(document).ready(function(){// Nuevo waypoint
     element: document.getElementById('tres'),
     // Función disparada
     handler: function(direction) {
-      mensaje()
+      if(direccion == 'down'){
+        mensaje()
+      }
       //notify('¡Has llegado!')
     }
   });
+
   function mensaje() {
 
     // error, success, info, warning
