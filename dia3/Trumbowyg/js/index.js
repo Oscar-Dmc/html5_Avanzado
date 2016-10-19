@@ -1,12 +1,12 @@
 $(document).ready(function(){
-  $('.editor').trumbowyg({
+/*  $('.editor').trumbowyg({
     //svgPath: '/icons/icons.svg', // path of icons.svg
     // Habitualmente, se indica la ruta del SVG en este parámetro, pero
     // en codepen, simplemente pegaremos el contenido del SVG en la parte
     // del código HTML
-  });
-  $('#trumbowyg').trumbowyg('html'); // Obtienes el HTML generado
-  
+  });*/
+
+
   $('.editor').trumbowyg({
   lang: 'es', // Idioma (es.min.js incluido)
   btns: [
@@ -19,5 +19,6 @@ $(document).ready(function(){
           ['viewHTML'],
           ['fullscreen']
         ],
-});
+      });
+  $('#trumbowyg').trumbowyg('html'); // Obtienes el HTML generado
 });
