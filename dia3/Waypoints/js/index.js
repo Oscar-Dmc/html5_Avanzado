@@ -3,9 +3,10 @@ $(document).ready(function(){// Nuevo waypoint
     // Elemento objetivo
     element: document.getElementById('tres'),
     // Función disparada
-    handler: mensaje()/*function(direction) {
-      notify('¡Has llegado!')
-    }*/
+    handler: function(direction) {
+      mensaje()
+      //notify('¡Has llegado!')
+    }
   });
   function mensaje() {
 
