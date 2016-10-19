@@ -8,6 +8,7 @@ $(document).ready(function(){
 
 
   $('.editor').trumbowyg({
+  svgPath: '/icons/icons.svg',  
   lang: 'es', // Idioma (es.min.js incluido)
   btns: [
           ['bold', 'italic', 'underline', 'strikethrough'],
