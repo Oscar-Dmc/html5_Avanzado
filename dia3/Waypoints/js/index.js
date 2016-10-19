@@ -4,7 +4,7 @@ $(document).ready(function(){// Nuevo waypoint
     element: document.getElementById('tres'),
     // Función disparada
     handler: function(direction) {
-      alert('¡Has llegado!');
+      notify('¡Has llegado!');
     }
   });
 });
