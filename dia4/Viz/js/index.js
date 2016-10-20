@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var sample = 'digraph g { a -> b; }';
+  var sample = 'digraph g { a -> b; b -> a; b -> c; c -> c;}';
 
   var options = {
     format: 'svg'
