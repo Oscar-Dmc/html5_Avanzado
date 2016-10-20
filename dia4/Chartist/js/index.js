@@ -11,7 +11,8 @@ $(document).ready(function(){
   var options = {
     donut: true,
     donutWidth: 40,
-    startAngle: 270
+    startAngle: 270,
+    total: 200
   }
 
   new Chartist.Pie('.chart', data, options);
