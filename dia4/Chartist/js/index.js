@@ -8,7 +8,9 @@ $(document).ready(function(){
              //{data: [20, 10, 30, 40//]}
           ]
         }//;
-  var options = {}
+  var options = {
+    donut: true
+  }
 
   new Chartist.Pie('.chart', data, options);
 });
