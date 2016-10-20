@@ -3,6 +3,7 @@ $(document).ready(function(){
 
   var options = {
     format: 'svg'
+    engine: circo;
     //format: 'png-image-element'
   }
 
