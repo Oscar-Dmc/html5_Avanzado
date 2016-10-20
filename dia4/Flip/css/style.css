@@ -8,3 +8,9 @@
   border: 15px solid #FFF;
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
 }
+
+#delantero{
+  text-align: center;
+  size: 15px;
+  color: cyan;
+}
