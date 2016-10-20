@@ -1,7 +1,7 @@
 table th.sort-up::after {
-  content:"⏷";
+  content:"+";
 }
 
 table th.sort-down::after {
-  content:"⏶";
+  content:"-";
 }
