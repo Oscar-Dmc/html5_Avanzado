@@ -10,7 +10,8 @@ $(document).ready(function(){
         }//;
   var options = {
     donut: true,
-    donutWidth: 40
+    donutWidth: 40,
+    startAngle: 270
   }
 
   new Chartist.Pie('.chart', data, options);
