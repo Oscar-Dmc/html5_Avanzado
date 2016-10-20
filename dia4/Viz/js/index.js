@@ -2,8 +2,8 @@ $(document).ready(function(){
   var sample = 'digraph g { a -> b; b -> a; b -> c; c -> c;}';
 
   var options = {
-    format: 'svg'
-    engine: circo;
+    format: 'svg',
+    engine: circo
     //format: 'png-image-element'
   }
 
