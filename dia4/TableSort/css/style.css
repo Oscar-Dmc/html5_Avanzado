@@ -1,7 +1,7 @@
 table th.sort-up::after {
-  content:"&#8593";
+  content:&#8593;
 }
 
 table th.sort-down::after {
-  content:"&#8595";
+  content:&#8595;
 }
