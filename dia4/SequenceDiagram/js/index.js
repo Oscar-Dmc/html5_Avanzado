@@ -1,4 +1,4 @@
-$(document).ready(function(){
+//$(document).ready(function(){
   var sample = 'A->B : Mensaje';
 
   var diagram = Diagram.parse(sample);
@@ -7,4 +7,4 @@ $(document).ready(function(){
     theme: 'hand' // o simple
   });
 
-});
+//});
