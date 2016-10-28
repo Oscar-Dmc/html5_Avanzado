@@ -1,2 +1,4 @@
 //Iniciamos la libreria impress.
-impress().init();
+window.addEventListener('DOMContentLoaded',function(){
+  impress().init();
+});
