@@ -9,6 +9,12 @@ $(document).ready(function(){
     speed: 500,                // Velocidad del giro
   });
 
-  //libreria before-after
+  //Libreria before-after
   $('.ba-slider').beforeAfter();
+
+  //Libreria slick
+  $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 2500,
+  });
 });
