@@ -23,7 +23,7 @@
   border-radius: 70px;
 }
 
-p, h3{
+p, h3, h1{
   text-align: center;
 }
 body{
@@ -55,5 +55,41 @@ body{
   border-top-left-radius: 50%;
   border: 5px solid #000;
   box-shadow: 0 0 25px RGBA(0,0,0, .75);
+}
 
+.step .islas{
+  position:absolute;
+  z-index: -10;
+  display: none;
+}
+
+.past h3{
+  display: none;
+}
+.past p{
+  display: none;
+}
+.past h1{
+  display: none;
+}
+.past img{
+  display: none;
+}
+.past span{
+  display: none;
+}
+.past button{
+  display:none
+}
+.past div{
+  display: none;
+}
+
+.past .islas{
+  display: block;
+  z-index:5;
+  position: absolute;
+}
+.past .islas img{
+  display: block;
 }
