@@ -19,3 +19,14 @@
   max-width: 640px;
   margin:auto;
 }
+
+body{
+  color: #f0f0f0;
+  background: #001ac2;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#0084d6), to(#001ac2));
+  background: -webkit-radial-gradient(#0084d6, #001ac2);
+  background: -moz-radial-gradient(#0084d6, #001ac2);
+  background: -ms-radial-gradient(#0084d6, #001ac2);
+  background: -o-radial-gradient(#0084d6, #001ac2);
+  background: radial-gradient(#0084d6, #001ac2);
+}
