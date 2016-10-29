@@ -19,7 +19,13 @@
   max-width: 640px;
   margin:auto;
 }
+.slider img{
+  border-radius: 70px;
+}
 
+p, h3{
+  text-align: center;
+}
 body{
   color: #f0f0f0;
   background: #001ac2;
@@ -29,4 +35,25 @@ body{
   background: -ms-radial-gradient(#0084d6, #001ac2);
   background: -o-radial-gradient(#0084d6, #001ac2);
   background: radial-gradient(#0084d6, #001ac2);
+}
+
+#p_detras{
+  position:absolute;
+  top: 110px;
+  z-index: -5;
+}
+
+#cont_playas img{
+  border: 10px solid #fff;
+}
+
+#enanos{
+  position: relative;
+  left:10%;
+  top: 25px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border: 5px solid #000;
+  box-shadow: 0 0 25px RGBA(0,0,0, .75);
+
 }
